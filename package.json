@@ -1,0 +1,21 @@
+{
+  "name": "functioning-of-the-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S4turn404/Functioning-of-the-Calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/S4turn404/Functioning-of-the-Calculator/issues"
+  },
+  "homepage": "https://github.com/S4turn404/Functioning-of-the-Calculator#readme"
+}
