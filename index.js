@@ -1,15 +1,21 @@
 
 
-function calc(a,b,c) {
+function quadratic(a,b,c) {
     var z = (b*b) - 4*a*c;
-    console.log(z);
     var x = Math.sqrt(Math.abs(z));
-    console.log(x);
     var y = x/2*a;
     return y
 }
 
-console.log(calc(1,2,10))
+function pythagorean(a,b) {
+    var c = Math.sqrt((a*a) + (b*b));
+    return c
+}
+
+
+
+
+console.log(quadratic(1,2,10))
 
 function add(a,b) {
     var sum = a+b
