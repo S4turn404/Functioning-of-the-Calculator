@@ -12,10 +12,38 @@ function pythagorean(a,b) {
     return c
 }
 
+function circ_area(a) {
+    var area = Math.PI * (a*a);
+    return area
+}
+
+function circumference(a) {
+    var circ = Math.PI *(2*a)
+    return circ
+}
 
 
+function sin(a) {
+    var s = Math.sin(a);
+    return s
+}
 
-console.log(quadratic(1,2,10))
+function cos(a) {
+    var c = Math.cos(a);
+    return c
+}
+
+function tan(a) {
+    var t = Math.tan(a);
+    return t
+}
+
+function log(a) {
+    var l = Math.log(a);
+    return l
+}
+
+
 
 function add(a,b) {
     var sum = a+b
@@ -44,3 +72,11 @@ console.log(sub(a,b))
 console.log(add(a,b))
 console.log(mult(a,b))
 console.log(div(a,b))
+console.log(quadratic(1,2,10))
+console.log(pythagorean(a,b))
+console.log(sin(10))
+console.log(cos(10))
+console.log(tan(10))
+console.log(log(10))
+console.log(circ_area(10))
+console.log(circumference(10))
